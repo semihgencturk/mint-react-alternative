@@ -5,7 +5,7 @@ import ScrollButton from "../ui/ScrollButton";
 import { mintExpContent } from "../contents/contents";
 
 const MintExplanationContainer = styled.div`
-  min-height: 90vh;
+  min-height: 94vh;
   background: linear-gradient(
     135deg,
     rgba(106, 192, 104, 1) 0%,
@@ -14,7 +14,7 @@ const MintExplanationContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5vh 0 5vh 0;
+  padding: 3vh 0 3vh 0;
 `;
 
 const MintExplanationHeader = styled.h2`

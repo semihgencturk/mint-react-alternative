@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import NavbarItem from "../ui/NavbarItem";
 import Logo from "../ui/Logo";
@@ -20,13 +21,14 @@ const Navbar = () => {
   return (
     <NavbarContainer>
       <NavbarItem link="/" text="Hakkimizda" />
-      <NavbarItem link="/" text="Sponsorluk" />
-      <NavbarItem link="/" text="Bize Ulasin" />
-      <Logo src={MintGreenLogo} alt="Mint-Logo" width={75} />
-
-      <NavbarItem link="/" text="Topluluklar" />
-      <NavbarItem link="/" text="Takimlar" />
-      <NavbarItem link="/" text="Etkinlikler" />
+      <NavbarItem link="/Iletisim" text="Sponsorluk" />
+      <NavbarItem link="/Iletisim" text="Bize Ulasin" />
+      <Link to="/">
+        <Logo src={MintGreenLogo} alt="Mint-Logo" width={75} />
+      </Link>
+      <NavbarItem link="/Topluluklar" text="Topluluklar" />
+      <NavbarItem link="/Takimlar" text="Takimlar" />
+      <NavbarItem link="/Etkinlikler" text="Etkinlikler" />
     </NavbarContainer>
   );
 };

@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import EventCard from "../components/EventCard";
 import Navbar from "../components/Navbar";
-import CommunityCard from "../components/CommunityCard";
 
-const CommunitiesContainer = styled.div`
+const EventsContainer = styled.div`
  height: 90vh;
  display flex;
  flex-direction: column;
@@ -17,20 +17,20 @@ const CommunitiesContainer = styled.div`
   padding-left: 25px;
 `;
 
-const CommunitiesHeader = styled.h2`
+const EventsHeader = styled.h2`
   font-size: 50px;
 `;
 
-const Communities = () => {
+const Events = () => {
   return (
     <>
       <Navbar />
-      <CommunitiesContainer>
-        <CommunitiesHeader>Topluluklarımız</CommunitiesHeader>
-        <CommunityCard />
-      </CommunitiesContainer>
+      <EventsContainer>
+        <EventsHeader>Etkinliklerimiz</EventsHeader>
+        <EventCard />
+      </EventsContainer>
     </>
   );
 };
 
-export default Communities;
+export default Events;

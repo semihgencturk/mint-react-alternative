@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
-import CommunityCard from "../components/CommunityCard";
+import TeamCard from "../components/TeamCard";
 
-const CommunitiesContainer = styled.div`
+const TeamsContainer = styled.div`
  height: 90vh;
  display flex;
  flex-direction: column;
@@ -17,20 +17,20 @@ const CommunitiesContainer = styled.div`
   padding-left: 25px;
 `;
 
-const CommunitiesHeader = styled.h2`
+const TeamsHeader = styled.h2`
   font-size: 50px;
 `;
 
-const Communities = () => {
+const Teams = () => {
   return (
     <>
       <Navbar />
-      <CommunitiesContainer>
-        <CommunitiesHeader>Topluluklarımız</CommunitiesHeader>
-        <CommunityCard />
-      </CommunitiesContainer>
+      <TeamsContainer>
+        <TeamsHeader>Takımlarımız</TeamsHeader>
+        <TeamCard />
+      </TeamsContainer>
     </>
   );
 };
 
-export default Communities;
+export default Teams;

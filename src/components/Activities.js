@@ -14,11 +14,11 @@ const ActivitiesContainer = styled.div`
 const Activities = () => {
   return (
     <ActivitiesContainer>
-      <Activity link="/Communities" title="Topluluklar" />
-      <Activity link="/" title="Takımlar" />
-      <Activity link="/" title="Eğitimler" />
-      <Activity link="/" title="Zirveler" />
-      <Activity link="/" title="Buluşmalar" />
+      <Activity link="/Topluluklar" title="Topluluklar" />
+      <Activity link="/Takimlar" title="Takımlar" />
+      <Activity link="/Etkinlikler" title="Eğitimler" />
+      <Activity link="/Etkinlikler" title="Zirveler" />
+      <Activity link="/Etkinlikler" title="Buluşmalar" />
     </ActivitiesContainer>
   );
 };

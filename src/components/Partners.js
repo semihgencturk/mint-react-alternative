@@ -3,7 +3,7 @@ import styled from "styled-components";
 import YtuTextLogo from "../assets/YtuTextLogo.png";
 
 const PartnersContainer = styled.div`
-  min-height: 40vh;
+  min-height: 44vh;
   background: linear-gradient(
     135deg,
     rgba(96, 163, 188, 1) 0%,
@@ -13,7 +13,7 @@ const PartnersContainer = styled.div`
   flex-direction: column;
   gap: 100px;
   align-items: center;
-  padding: 5vh 0 5vh 0;
+  padding: 3vh 0 3vh 0;
 `;
 
 const PartnersHeader = styled.div`

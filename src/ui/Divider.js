@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const DividerContainer = styled.div`
-  height: 5px;
+  height: 1vh;
   background: linear-gradient(
     135deg,
     rgba(246, 214, 59, 1) 0%,

@@ -10,10 +10,11 @@ const ContactContainer = styled.div`
     rgba(96, 163, 188, 1) 100%
   );
   display: flex;
-  gap: 50px;
+  gap: 10px;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  padding: 5vh 0 5vh 0;
+  padding: 3vh 0 3vh 0;
 `;
 
 const ContactHeader = styled.div`
@@ -94,9 +95,9 @@ const Contact = () => {
       </SocialMedias>
       <MintMail>mintunity@gmail.com</MintMail>
       <LinkButtons>
-        <LinkButton link="/" text="Topluluklar" />
-        <LinkButton link="/" text="Etkinlikler" />
-        <LinkButton link="/" text="Takımlar" />
+        <LinkButton link="/Topluluklar" text="Topluluklar" />
+        <LinkButton link="/Etkinlikler" text="Etkinlikler" />
+        <LinkButton link="/Takimlar" text="Takımlar" />
       </LinkButtons>
     </ContactContainer>
   );
