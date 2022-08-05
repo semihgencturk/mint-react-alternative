@@ -5,6 +5,8 @@ import Logo from "../ui/Logo";
 
 const EventCardContainer = styled.div`
   max-width: 1400px;
+
+  height: fit-content;
   min-height: 100px;
   border-top: solid #ff8c89 2px;
   border-left: solid #ff8c89 2px;
@@ -31,6 +33,9 @@ const EventCardTitle = styled.h3`
 `;
 const EventCardText = styled.p`
   font-size: 22px;
+  @media (max-height: 850px) {
+    padding-left: 3%;
+  }
 `;
 
 const EventCard = () => {

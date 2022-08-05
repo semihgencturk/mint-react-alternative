@@ -14,6 +14,8 @@ const PartnersContainer = styled.div`
   gap: 100px;
   align-items: center;
   padding: 3vh 0 3vh 0;
+
+  width: 100%;
 `;
 
 const PartnersHeader = styled.div`

@@ -8,6 +8,7 @@ import Logo from "../ui/Logo";
 const CommunityCardContainer = styled.div`
   max-width: 1400px;
   min-height: 100px;
+  height: fit-content;
   border-top: solid #ff8c89 2px;
   border-left: solid #ff8c89 2px;
   border-bottom: solid #f6d63b 2px;
@@ -16,6 +17,10 @@ const CommunityCardContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 25px 0 25px;
+  @media (max-height: 850px) {
+    padding: 0;
+    width: fit-contnent;
+  }
 `;
 
 const CommunityCardLogoContainer = styled.div`
@@ -33,6 +38,10 @@ const CommunityCardTitle = styled.h3`
 `;
 const CommunityCardText = styled.p`
   font-size: 22px;
+
+  @media (max-height: 850px) {
+    padding-left: 3%;
+  }
 `;
 
 const CommunityCard = () => {

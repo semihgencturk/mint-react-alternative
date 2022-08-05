@@ -17,6 +17,7 @@ const BundleContainer = styled.div`
   align-items: center;
   justify-content: center;
   gap: 25px;
+  width: 100%;
 `;
 
 const BundleLogos = styled.div`

@@ -8,6 +8,7 @@ const AppContainer = styled.div`
   padding: 0;
   font-family: Oxygen;
   color: white;
+  width: 100%;
 
   button {
     color: white;

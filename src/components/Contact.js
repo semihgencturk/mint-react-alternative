@@ -15,6 +15,7 @@ const ContactContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 3vh 0 3vh 0;
+  width: 100%;
 `;
 
 const ContactHeader = styled.div`

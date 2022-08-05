@@ -6,7 +6,7 @@ const ActivitiesContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  padding: 50px 50px 0 0;
+  padding: 50px 0 0 0;
   gap: 10%;
   justify-content: center;
 `;

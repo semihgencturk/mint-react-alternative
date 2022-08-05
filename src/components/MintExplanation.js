@@ -15,6 +15,7 @@ const MintExplanationContainer = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 3vh 0 3vh 0;
+  width: 100%;
 `;
 
 const MintExplanationHeader = styled.h2`

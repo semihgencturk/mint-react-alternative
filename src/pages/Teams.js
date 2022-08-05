@@ -4,7 +4,9 @@ import Navbar from "../components/Navbar";
 import TeamCard from "../components/TeamCard";
 
 const TeamsContainer = styled.div`
- height: 90vh;
+ min-height: 90vh;
+ 
+ height: fit-content;
  display flex;
  flex-direction: column;
  background: linear-gradient(

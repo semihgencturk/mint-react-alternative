@@ -7,6 +7,7 @@ import Logo from "../ui/Logo";
 const TeamCardContainer = styled.div`
   max-width: 1400px;
   min-height: 100px;
+  height: fit-content;
   border-top: solid #ff8c89 2px;
   border-left: solid #ff8c89 2px;
   border-bottom: solid #f6d63b 2px;
@@ -32,6 +33,10 @@ const TeamCardTitle = styled.h3`
 `;
 const TeamCardText = styled.p`
   font-size: 22px;
+
+  @media (max-height: 850px) {
+    padding-left: 3%;
+  }
 `;
 
 const TeamCard = () => {

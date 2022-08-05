@@ -4,7 +4,9 @@ import Navbar from "../components/Navbar";
 import CommunityCard from "../components/CommunityCard";
 
 const CommunitiesContainer = styled.div`
- height: 90vh;
+ min-height: 90vh;
+ width: 100%;
+ height: fit-content;
  display flex;
  flex-direction: column;
  background: linear-gradient(
@@ -15,6 +17,9 @@ const CommunitiesContainer = styled.div`
   margin-top: -10vh;
   padding-top: 10vh;
   padding-left: 25px;
+  @media (max-width: 850px) {
+    padding-left: 2px;
+  }
 `;
 
 const CommunitiesHeader = styled.h2`
