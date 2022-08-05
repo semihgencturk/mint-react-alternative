@@ -17,7 +17,7 @@ const EventCardContainer = styled.div`
   align-items: center;
   padding: 0 25px 0 25px;
   flex-wrap: wrap;
-  @media (max-height: 850px) {
+  @media (max-width: 850px) {
     padding-top: 25px;
     justify-content: center;
   }
@@ -35,7 +35,7 @@ const EventCardContent = styled.div`
 const EventCardTitle = styled.h3`
   font-size: 26px;
   color: black;
-  @media (max-height: 850px) {
+  @media (max-width: 850px) {
     text-align: center;
   }
 `;

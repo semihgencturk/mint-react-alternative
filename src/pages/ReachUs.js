@@ -120,7 +120,7 @@ const ReachUs = () => {
           href="https://docs.google.com/forms/d/e/1FAIpQLSfG_yy2oUhuMitfx-9Taka_ON9UeZOg7Ric5vuTnw7S0Zf1jQ/viewform?usp=sf_link"
           target="_blank"
         >
-          Uye Başvurusu
+          Üye Başvurusu
         </ExternalLinkButton>
       </ReachUsContainer>
     </>

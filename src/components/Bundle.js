@@ -34,6 +34,10 @@ const BundleHeader = styled.h1`
   span {
     color: #f6d63b;
   }
+
+  @media (max-width: 1000px) {
+    text-align: center;
+  }
 `;
 
 const Bundle = () => {

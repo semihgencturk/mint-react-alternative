@@ -47,6 +47,9 @@ const LinkButtons = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   gap: 5%;
+  button {
+    margin-bottom: 15px;
+  }
 `;
 
 const Contact = () => {
@@ -98,8 +101,8 @@ const Contact = () => {
       <MintMail>mintunity@gmail.com</MintMail>
       <LinkButtons>
         <LinkButton link="/Topluluklar" text="Topluluklar" />
-        <LinkButton link="/Etkinlikler" text="Etkinlikler" />
         <LinkButton link="/Takimlar" text="Takımlar" />
+        <LinkButton link="/Etkinlikler" text="Etkinlikler" />
       </LinkButtons>
     </ContactContainer>
   );

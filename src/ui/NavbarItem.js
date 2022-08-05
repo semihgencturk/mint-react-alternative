@@ -15,6 +15,10 @@ const NavbarItemContainer = styled.button`
   :hover {
     color: black;
   }
+
+  @media (max-height: 1200px) {
+    font-size: 16px;
+  }
 `;
 
 const NavbarItem = ({ link, text }) => {

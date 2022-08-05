@@ -30,6 +30,11 @@ const ActivityContainer = styled.a`
       display: flex;
     }
   }
+
+  @media (max-width: 850px) {
+    height: 150px;
+    margin-bottom: 5px;
+  }
 `;
 
 const ActivityText = styled.h3`

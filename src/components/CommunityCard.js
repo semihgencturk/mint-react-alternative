@@ -18,7 +18,7 @@ const CommunityCardContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   padding: 0 25px 0 25px;
-  @media (max-height: 850px) {
+  @media (max-width: 850px) {
     padding-top: 25px;
     justify-content: center;
   }
@@ -36,14 +36,14 @@ const CommunityCardContent = styled.div`
 const CommunityCardTitle = styled.h3`
   font-size: 26px;
   color: black;
-  @media (max-height: 850px) {
+  @media (max-width: 850px) {
     text-align: center;
   }
 `;
 const CommunityCardText = styled.p`
   font-size: 22px;
 
-  @media (max-height: 850px) {
+  @media (max-width: 850px) {
     padding-left: 3%;
   }
 `;

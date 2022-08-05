@@ -23,6 +23,12 @@ const TeamsContainer = styled.div`
 
 const TeamsHeader = styled.h2`
   font-size: 50px;
+
+  @media (max-width: 1000px) {
+    display: flex;
+    justify-content: center;
+  }
+
   @media (max-width: 400px) {
     font-size: 40px;
   }

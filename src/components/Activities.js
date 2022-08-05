@@ -7,7 +7,7 @@ const ActivitiesContainer = styled.div`
   flex-wrap: wrap;
   width: 100%;
   padding: 50px 0 0 0;
-  gap: 10%;
+  gap: 3%;
   justify-content: center;
 `;
 

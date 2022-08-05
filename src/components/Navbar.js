@@ -17,14 +17,17 @@ const NavbarContainer = styled.div`
   align-items: center;
   gap: 3%;
   width: 100%;
-  @media (max-height: 850px) {
+  @media (max-width: 850px) {
     background: linear-gradient(
       135deg,
       rgba(246, 214, 59, 1) 0%,
       rgba(255, 140, 137, 1) 100%
     );
     justify-content: flex-start;
-    padding-left: 10px;
+
+    img {
+      margin-left: 10px;
+    }
   }
 `;
 
@@ -50,7 +53,7 @@ const Navbar = () => {
 
   return (
     <NavbarContainer>
-      {windowSize.innerWidth > 850 ? (
+      {windowSize.innerWidth > 1000 ? (
         <>
           <NavbarItem link="/" text="Hakkimizda" />
           <NavbarItem link="/Iletisim" text="Sponsorluk" />

@@ -1,4 +1,5 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import Activities from "../components/Activities";
 import ScrollButton from "../ui/ScrollButton";
@@ -27,7 +28,7 @@ const MintExplanationText = styled.p`
   text-align: center;
 
   span {
-    color: black;
+    color: #f6d63b;
     font-weight: 600;
   }
 `;
@@ -39,19 +40,37 @@ const ScrollButtonContainer = styled.div`
 `;
 
 const MintExplanation = () => {
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
+  function getWindowSize() {
+    const { innerWidth, innerHeight } = window;
+    return { innerWidth, innerHeight };
+  }
   return (
     <MintExplanationContainer>
       <MintExplanationHeader>
         {mintExpContent.mintExpTitle}
       </MintExplanationHeader>
       <MintExplanationText>
-        Mint <span>Yıldız Teknik Üniversitesi</span>nde faaliyet gösteren bir
+        Mint <span>Yıldız Teknik Üniversitesi</span>nde faaliyet gösteren bir{" "}
         <span>öğrenci kulübüdür</span>. Başta <span>yazılım</span>ın her alanını
         kapsayacak şekilde eğitimler, zirveler, workshoplar, yarışmalar
-        düzenlerken, buna ek olarak öğrencilerin <span>soft skil</span>lerini
-        geliştirmeyi amaçlayan çalışmalar da yapmaktadır.
+        düzenlerken, buna ek olarak öğrencilerin <span>kişisel beceri</span>
+        lerini geliştirmeyi amaçlayan çalışmalar da yapmaktadır.
       </MintExplanationText>
-      <Activities />
+      {windowSize.innerWidth > 850 ? <Activities /> : null}
       <ScrollButtonContainer>
         <ScrollButton text="Partnerlerimiz" />
       </ScrollButtonContainer>
