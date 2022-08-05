@@ -15,7 +15,12 @@ const TeamCardContainer = styled.div`
   border-radius: 25px;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding: 0 25px 0 25px;
+  @media (max-height: 850px) {
+    padding-top: 25px;
+    justify-content: center;
+  }
 `;
 
 const TeamCardLogoContainer = styled.div`
@@ -30,13 +35,12 @@ const TeamCardContent = styled.div`
 const TeamCardTitle = styled.h3`
   font-size: 26px;
   color: black;
+  @media (max-height: 850px) {
+    text-align: center;
+  }
 `;
 const TeamCardText = styled.p`
   font-size: 22px;
-
-  @media (max-height: 850px) {
-    padding-left: 3%;
-  }
 `;
 
 const TeamCard = () => {

@@ -5,7 +5,6 @@ import TeamCard from "../components/TeamCard";
 
 const TeamsContainer = styled.div`
  min-height: 90vh;
- 
  height: fit-content;
  display flex;
  flex-direction: column;
@@ -17,10 +16,16 @@ const TeamsContainer = styled.div`
   margin-top: -10vh;
   padding-top: 10vh;
   padding-left: 25px;
+  @media (max-width: 850px) {
+    padding-left: 0;
+  }
 `;
 
 const TeamsHeader = styled.h2`
   font-size: 50px;
+  @media (max-width: 400px) {
+    font-size: 40px;
+  }
 `;
 
 const Teams = () => {

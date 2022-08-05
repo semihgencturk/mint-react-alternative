@@ -5,7 +5,6 @@ import Navbar from "../components/Navbar";
 
 const EventsContainer = styled.div`
  min-height: 90vh;
- 
  height: fit-content;
  display flex;
  flex-direction: column;
@@ -17,10 +16,16 @@ const EventsContainer = styled.div`
   margin-top: -10vh;
   padding-top: 10vh;
   padding-left: 25px;
+  @media (max-width: 850px) {
+    padding-left: 0;
+  }
 `;
 
 const EventsHeader = styled.h2`
   font-size: 50px;
+  @media (max-width: 400px) {
+    font-size: 40px;
+  }
 `;
 
 const Events = () => {

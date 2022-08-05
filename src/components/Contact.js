@@ -45,6 +45,7 @@ const MintMail = styled.p`
 const LinkButtons = styled.div`
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 5%;
 `;
 

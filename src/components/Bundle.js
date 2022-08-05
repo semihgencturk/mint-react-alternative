@@ -23,6 +23,8 @@ const BundleContainer = styled.div`
 const BundleLogos = styled.div`
   display: flex;
   justify-content: center;
+
+  flex-wrap: wrap;
   gap: 75px;
 `;
 

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import NavbarItem from "../ui/NavbarItem";
 import Logo from "../ui/Logo";
-
+import NavbarHamburger from "./NavbarHamburger";
 import MintGreenLogo from "../assets/MintGreenLogo.png";
 
 const NavbarContainer = styled.div`
@@ -23,6 +23,8 @@ const NavbarContainer = styled.div`
       rgba(246, 214, 59, 1) 0%,
       rgba(255, 140, 137, 1) 100%
     );
+    justify-content: flex-start;
+    padding-left: 10px;
   }
 `;
 
@@ -61,9 +63,12 @@ const Navbar = () => {
           <NavbarItem link="/Etkinlikler" text="Etkinlikler" />
         </>
       ) : (
-        <Link to="/">
-          <Logo src={MintGreenLogo} alt="Mint-Logo" width={75} />
-        </Link>
+        <>
+          <Link to="/">
+            <Logo src={MintGreenLogo} alt="Mint-Logo" width={75} />
+          </Link>
+          <NavbarHamburger />
+        </>
       )}
     </NavbarContainer>
   );

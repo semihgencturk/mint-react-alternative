@@ -5,7 +5,7 @@ import Logo from "../ui/Logo";
 
 const EventCardContainer = styled.div`
   max-width: 1400px;
-
+  min-height: 100px;
   height: fit-content;
   min-height: 100px;
   border-top: solid #ff8c89 2px;
@@ -16,6 +16,11 @@ const EventCardContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 0 25px 0 25px;
+  flex-wrap: wrap;
+  @media (max-height: 850px) {
+    padding-top: 25px;
+    justify-content: center;
+  }
 `;
 
 const EventCardLogoContainer = styled.div`
@@ -30,12 +35,12 @@ const EventCardContent = styled.div`
 const EventCardTitle = styled.h3`
   font-size: 26px;
   color: black;
+  @media (max-height: 850px) {
+    text-align: center;
+  }
 `;
 const EventCardText = styled.p`
   font-size: 22px;
-  @media (max-height: 850px) {
-    padding-left: 3%;
-  }
 `;
 
 const EventCard = () => {
