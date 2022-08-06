@@ -1,6 +1,6 @@
 # Mint Official Website
 
-I developed this website for a student community in [Yildiz Technical University](https://yildiz.edu.tr/en)
+I developed this fully responsive website for a student community in [Yildiz Technical University](https://yildiz.edu.tr/en)
 
 ## About The Project
 
