@@ -9,7 +9,7 @@ I developed this fully responsive website for a student community in [Yildiz Tec
 - I get the icons from [Font Awesome](https://fontawesome.com/)
 - I imported the font family from [Google Fonts](https://fonts.google.com/specimen/Oxygen?preview.text=%EA%B7%B8%EB%93%A4%EC%9D%98%20%EC%9E%A5%EB%B9%84%EC%99%80%20%EA%B8%B0%EA%B5%AC%EB%8A%94%20%EB%AA%A8%EB%91%90%20%EC%82%B4%EC%95%84%20%EC%9E%88%EB%8B%A4.&preview.text_type=custom&query=oxygen)
 
-## Here Some Screenshots From The Project 
+## Here Some Screenshots From The Project
 
 <img src="https://user-images.githubusercontent.com/76486481/183261260-a6d1f6d1-1877-4ebd-8007-5e57cee1f05e.png" width=50% >
 <img src="https://user-images.githubusercontent.com/76486481/183261223-e35fc93c-67ac-43c1-9c81-258b307b337a.jpg" width=25% >
