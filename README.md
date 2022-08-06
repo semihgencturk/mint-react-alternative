@@ -11,6 +11,10 @@ I developed this fully responsive website for a student community in [Yildiz Tec
 
 ## Here Some Screenshots From The Project 
 
-![Mint photo 1](https://user-images.githubusercontent.com/76486481/183260862-bdda3262-aeb0-4812-844b-69741352c73e.png)
+![Mint photo 1](https://user-images.githubusercontent.com/76486481/183260862-bdda3262-aeb0-4812-844b)
+![Mint photo 4](https://user-images.githubusercontent.com/76486481/183261223-e35fc93c-67ac-43c1-9c81-258b307b337a.jpg)
+-69741352c73e.png)
 ![Mint photo 2](https://user-images.githubusercontent.com/76486481/183260864-3e99cf61-6c09-4084-9fa1-32c6d78b58f5.png)
+![Mint Photo 5](https://user-images.githubusercontent.com/76486481/183261233-cc596d8b-7d85-426c-8058-e79b3764ab6a.jpg)
 ![Mint photo 3](https://user-images.githubusercontent.com/76486481/183260866-b4c36029-9f37-4bcb-a2b1-33c3a7453b86.png)
+![Mint photo 6](https://user-images.githubusercontent.com/76486481/183261239-8c1a6026-f079-4635-aac0-c3bd219f8a34.jpg)
