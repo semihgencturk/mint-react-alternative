@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import CommunityCard from "../components/CommunityCard";
+import { communitiesContent } from "../contents/contents";
 
 const CommunitiesContainer = styled.div`
  min-height: 90vh;
@@ -40,7 +41,7 @@ const Communities = () => {
       <Navbar />
       <CommunitiesContainer>
         <CommunitiesHeader>Topluluklarımız</CommunitiesHeader>
-        <CommunityCard />
+        <CommunityCard items={communitiesContent} />
       </CommunitiesContainer>
     </>
   );

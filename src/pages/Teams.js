@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import TeamCard from "../components/TeamCard";
+import { teamsContent } from "../contents/contents";
 
 const TeamsContainer = styled.div`
  min-height: 90vh;
@@ -40,7 +41,7 @@ const Teams = () => {
       <Navbar />
       <TeamsContainer>
         <TeamsHeader>Takımlarımız</TeamsHeader>
-        <TeamCard />
+        <TeamCard items={teamsContent} />
       </TeamsContainer>
     </>
   );

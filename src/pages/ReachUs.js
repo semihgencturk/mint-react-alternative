@@ -14,7 +14,7 @@ const ReachUsContainer = styled.div`
     rgba(106, 192, 104, 1) 0%,
     rgba(96, 163, 188, 1) 100%
   );
-  padding: 15vh 0 0 5vh;
+  padding: 15vh 5vh 0 5vh;
   margin-top: -10vh;
 `;
 

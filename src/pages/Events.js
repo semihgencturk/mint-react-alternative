@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import EventCard from "../components/EventCard";
 import Navbar from "../components/Navbar";
+import { eventsContent } from "../contents/contents";
 
 const EventsContainer = styled.div`
  min-height: 90vh;
@@ -38,7 +39,7 @@ const Events = () => {
       <Navbar />
       <EventsContainer>
         <EventsHeader>Etkinliklerimiz</EventsHeader>
-        <EventCard />
+        <EventCard items={eventsContent} />
       </EventsContainer>
     </>
   );
