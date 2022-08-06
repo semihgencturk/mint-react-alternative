@@ -17,3 +17,4 @@ I developed this fully responsive website for a student community in [Yildiz Tec
 ![Mint Photo 5](https://user-images.githubusercontent.com/76486481/183261233-cc596d8b-7d85-426c-8058-e79b3764ab6a.jpg | width= 100px)
 ![Mint photo 3](https://user-images.githubusercontent.com/76486481/183260866-b4c36029-9f37-4bcb-a2b1-33c3a7453b86.png | width= 100px)
 ![Mint photo 6](https://user-images.githubusercontent.com/76486481/183261239-8c1a6026-f079-4635-aac0-c3bd219f8a34.jpg | width= 100px)
+<img src="https://user-images.githubusercontent.com/76486481/183261260-a6d1f6d1-1877-4ebd-8007-5e57cee1f05e.png" width=50% >
