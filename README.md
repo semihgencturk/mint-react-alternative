@@ -1,7 +1,8 @@
 # Mint Official Website (Alternative)
 
 - It is an alternative website for the main project I developed for a student community in [Yildiz Technical University](https://yildiz.edu.tr/en) 
-- You can reach the main project I deployed as a product via [this link](https://github.com/semihgencturk/project-mint-react)  
+- You can reach the main project I deployed as a product via [this link](https://github.com/semihgencturk/project-mint-react) 
+- You can reach this website via [this link](https://ytumint2.netlify.app/)
 
 ## About The Project
 
