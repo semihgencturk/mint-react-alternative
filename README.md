@@ -1,6 +1,7 @@
-# Mint Official Website
+# Mint Official Website (Alternative)
 
-I developed this fully responsive website for a student community in [Yildiz Technical University](https://yildiz.edu.tr/en)
+- It is an alternative website for the main project I developed for a student community in [Yildiz Technical University](https://yildiz.edu.tr/en) 
+- You can reach the main project I deployed as a product via [this link](https://github.com/semihgencturk/project-mint-react)  
 
 ## About The Project
 
